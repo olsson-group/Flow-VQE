@@ -6,22 +6,17 @@ This repository contains the implementation of Flow-VQE, a novel approach combin
 
 The project includes two main components:
 - **Optimization Baselines**: Traditional VQE optimization methods with various optimizers, and post-training by invoking warm-start or parameter-transfer parameters
-- **Flow VQE**: Main procedure using normalizing flows as surrogate models for VQE training
+- **Flow-VQE**: Main procedure using normalizing flows as surrogate models for VQE training
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd Flow_VQE
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Data Repository**: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing).
+2. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing). (Download it for the warm-start function.)
+
 
 ## Quick Start
 
@@ -119,7 +114,7 @@ If you have any questions or other issues, please contact me at: hangzo@chalmers
 
 ## Cite this paper
 ```bibtex
-@misc{zou2025generative,
+@article{zou2025generative,
       title={Generative flow-based warm start of the variational quantum eigensolver}, 
       author={Hang Zou and Martin Rahm and Anton Frisk Kockum and Simon Olsson},
       year={2025},
