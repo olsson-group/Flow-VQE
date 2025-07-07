@@ -2,6 +2,7 @@
 Flow models module for Flow VQE.
 
 Contains training functions for normalizing flow models in both single and multi-distance modes.
+We thank [Zuko](https://github.com/probabilists/zuko) for their excellent implementation of flow models.
 """
 
 import torch
