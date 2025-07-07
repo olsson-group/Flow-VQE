@@ -113,10 +113,7 @@ This will display all available commands and their descriptions for reproducing 
   - `warm_optimization_*/` - Warm-start optimization results
   - `warm_up/` - Generated warm-up parameters
 
-## Citation
-
-If you use this code in your research, please cite our paper:
-
+## Cite this paper
 ```bibtex
 @misc{zou2025generative,
       title={Generative flow-based warm start of the variational quantum eigensolver}, 
@@ -126,5 +123,3 @@ If you use this code in your research, please cite our paper:
       archivePrefix={arXiv}
 }
 ```
-
-For more information about this work, please visit: [arxiv:2507.01726](https://arxiv.org/abs/2507.01726)
