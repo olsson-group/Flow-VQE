@@ -21,7 +21,8 @@ cd Flow_VQE
 pip install -r requirements.txt
 ```
 
-3. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing).
+3. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing). (Download it for the warm-start function.)
+
 
 ## Quick Start
 
@@ -119,7 +120,7 @@ If you have any questions or other issues, please contact me at: hangzo@chalmers
 
 ## Cite this paper
 ```bibtex
-@paper{zou2025generative,
+@article{zou2025generative,
       title={Generative flow-based warm start of the variational quantum eigensolver}, 
       author={Hang Zou and Martin Rahm and Anton Frisk Kockum and Simon Olsson},
       year={2025},
