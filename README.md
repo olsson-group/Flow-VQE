@@ -104,11 +104,27 @@ This will display all available commands and their descriptions for reproducing 
   - `plotter.py` - Results visualization
   - `utils.py` - Utility functions for baselines
 
-### Data and Results
-- `a_store_data/` - Experimental results and trained models
+### Data and Results 
+- `a_store_data/` - Experimental results and trained models, find [here](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing)
   - `flow_vqe_m_*/` - Flow-VQE-M training results
   - `flow_vqe_s_optimization/` - Flow-VQE-S optimization experiments
   - `pt_optimization_results_*/` - Parameter transfer optimization results
   - `vqe_optimization_results_*/` - Traditional VQE optimization results
   - `warm_optimization_*/` - Warm-start optimization results
   - `warm_up/` - Generated warm-up parameters
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@misc{zou2025generative,
+      title={Generative flow-based warm start of the variational quantum eigensolver}, 
+      author={Hang Zou and Martin Rahm and Anton Frisk Kockum and Simon Olsson},
+      year={2025},
+      eprint={2507.01726},
+      archivePrefix={arXiv}
+}
+```
+
+For more information about this work, please visit: [arxiv:2507.01726](https://arxiv.org/abs/2507.01726)
