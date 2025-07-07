@@ -14,9 +14,7 @@ The project includes two main components:
 ```bash
 pip install -r requirements.txt
 ```
-
 2. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing). (Download it for the warm-start function.)
-
 
 ## Quick Start
 
@@ -25,19 +23,19 @@ pip install -r requirements.txt
 Run traditional VQE optimization for different molecules:
 
 ```bash
-# H4 molecule with multiple optimizers (training range: 0.6-2.6 Å)
+# H4 molecule with multiple optimizers  (default bond-length range)
 python optimization_baselines_main.py --molecule H4 --mode default --optimizers ADAM GD QNSPSA
 
-# H2O molecule optimization (training range: 0.8-1.8 Å)
+# H2O molecule optimization  (default bond-length range)
 python optimization_baselines_main.py --molecule H2O --mode default --optimizers ADAM GD QNSPSA
 ```
 
-### Flow VQE Training
+### Flow-VQE Training
 
-Train Flow VQE models for molecular systems:
+Train Flow-VQE models for molecular systems:
 
 ```bash
-# Single distance training for H4 
+# Single distance training for H4
 python flow_vqe_main.py --molecules H4 --training_range 2.6 --training_mode single --n_flows 7  --n_epochs 3001
 
 # Multi-distance training for H2O 
@@ -46,7 +44,7 @@ python flow_vqe_main.py --molecules H2O --training_range "np.linspace(0.8, 1.8, 
 
 ### Warm-up Parameter Generation
 
-Generate optimized parameters using trained Flow VQE models:
+Generate optimized parameters using trained Flow-VQE models:
 
 ```bash
 # Generate warm-up parameters for H2O using the trained flow model 
