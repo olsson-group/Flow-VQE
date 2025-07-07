@@ -1,6 +1,6 @@
 # Generative flow-based warm start of the variational quantum eigensolver
 
-This repository contains the implementation of Flow-VQE, a novel approach combining variational quantum eigensolvers (VQE) with normalizing flows for molecular ground state optimization and warm-start. The code supports the research presented in [arxiv:2507.01726](https://arxiv.org/abs/2507.01726).
+This repository contains the implementation of Flow-VQE, a novel approach combining variational quantum eigensolvers (VQE) with normalizing flows for molecular ground state optimization and warm-start. The code supports the research presented in [arXiv:2507.01726](https://arxiv.org/abs/2507.01726).
 
 ## Overview
 
@@ -58,7 +58,7 @@ python flow_vqe_warm_up.py --molecules H2O --test_range "np.linspace(0.75, 1.9, 
 - All default optimization experiments (Fig. 2)
 - Warm-up optimization examples (Table I) 
 - Parameter transfer comparisons (Fig. 4)
-- Flow VQE training configurations (Fig. 2, 3, 4)
+- Flow-VQE training configurations (Fig. 2, 3, 4)
 - Complete command-line examples for every experiment in the paper
 
 Simply run:
@@ -71,8 +71,8 @@ This will display all available commands and their descriptions for reproducing 
 ## File Structure
 
 ### Main Scripts
-- `flow_vqe_main.py` - Main script for Flow VQE training and evaluation
-- `flow_vqe_warm_up.py` - Script for generating warm-up parameters using trained Flow VQE models
+- `flow_vqe_main.py` - Main script for Flow-VQE training and evaluation
+- `flow_vqe_warm_up.py` - Script for generating warm-up parameters using trained Flow-VQE models
 - `optimization_baselines_main.py` - Script for running traditional VQE optimization baselines
 - `example_usage.py` - Comprehensive examples for reproducing all paper results
 - `ansatz.py` - Quantum circuit ansatz definitions and implementations
@@ -80,8 +80,8 @@ This will display all available commands and their descriptions for reproducing 
 - `read_draw.ipynb` - Jupyter notebook for data analysis and visualization
 
 ### Core Packages
-- `flow_vqe/` - Main Flow VQE implementation package
-  - `main.py` - Core Flow VQE training logic
+- `flow_vqe/` - Main Flow-VQE implementation package
+  - `main.py` - Core Flow-VQE training logic
   - `flow_training.py` - Normalizing flow training procedures
   - `molecule_utils.py` - Molecular system utilities and setup
   - `circuit_utils.py` - Quantum circuit manipulation utilities
