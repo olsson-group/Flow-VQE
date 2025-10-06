@@ -14,7 +14,7 @@ The project includes two main components:
 ```bash
 pip install -r requirements.txt
 ```
-2. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored in the [a_store_data](https://drive.google.com/drive/folders/1mDTOIzxq2T6BhY_qCFSTw9EszD9fsJdH?usp=sharing). (Download it for the warm-start function.)
+2. Data Repository: Due to data capacity limitations, the experimental results and trained models are stored on the Zenodo [Flow-VQE-data-model](https://doi.org/10.5281/zenodo.17278313). After downloading, you can use the trained model to perform the warm-start function.
 
 ## Quick Start
 
